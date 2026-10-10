@@ -41,9 +41,10 @@ Unknown triggers, modes, or changed archive formats may need another reader pass
 
 ## Windows prototype
 
-The local package is `dist/DeltaDash-v0.1.0-dev-windows.zip` (Windows 10/11 x64).
-The generated ZIP is excluded from Git; the GitHub repository contains the
-source and build scripts. The cloud task response links the existing test build.
+Download the [Windows test ZIP](https://github.com/GitGalaxy101/sloppycombo/releases/download/v0.1.0-dev/DeltaDash-v0.1.0-dev-windows.zip)
+from the [prototype prerelease](https://github.com/GitGalaxy101/sloppycombo/releases/tag/v0.1.0-dev)
+(Windows 10/11 x64). The generated ZIP is excluded from Git history and attached
+as a release asset; the repository contains the source and build scripts.
 It bundles CPython, pygame/SDL, native DLLs, their notices and corresponding
 pygame source. Python or a separate runtime need not be installed by the player.
 **The Windows executable has not been run here.**

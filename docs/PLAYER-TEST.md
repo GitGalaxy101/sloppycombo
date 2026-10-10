@@ -4,8 +4,10 @@ The cloud machine has neither game installed and cannot reach the player's PC.
 It can build the prototype but cannot establish real-copy compatibility or
 capture real gameplay. Keep publishing blocked until this test succeeds.
 
-1. On Windows 10/11 x64 with both games installed through Steam, extract the
-   local `DeltaDash-v0.1.0-dev-windows.zip`. Double-click `DeltaDash/launch.cmd`.
+1. Download `DeltaDash-v0.1.0-dev-windows.zip` from the
+   [GitHub prerelease](https://github.com/GitGalaxy101/sloppycombo/releases/tag/v0.1.0-dev).
+   On Windows 10/11 x64 with both games installed through Steam, extract the ZIP
+   and double-click `DeltaDash/launch.cmd`.
    It reads Steam's library list/manifests only and launches the bundled runtime;
    no Python download, loader install, registry edits, or game-file edits occur.
 2. If the launcher cannot locate a game, use Steam **Manage > Browse local
