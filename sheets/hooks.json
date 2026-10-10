@@ -1,0 +1,56 @@
+{
+  "id": "hooks",
+  "class": "HookSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "reader": {
+      "type": "str"
+    },
+    "source": {
+      "type": "str"
+    },
+    "required": {
+      "type": "bool"
+    },
+    "read_only": {
+      "type": "bool"
+    },
+    "failure": {
+      "type": "str"
+    },
+    "verified_contract": {
+      "type": "str"
+    }
+  },
+  "rows": [
+    {
+      "id": "deltarune",
+      "reader": "deltadash.deltarune_content.load_deltarune",
+      "source": "--game-dir supplied by Melty",
+      "required": true,
+      "read_only": true,
+      "failure": "Report missing or unsupported Chapter 2 data; stop gameplay.",
+      "verified_contract": "FORM STRG SPRT TPAG TXTR reader fixtures"
+    },
+    {
+      "id": "geometry_dash",
+      "reader": "deltadash.gd_content.load_geometry_dash",
+      "source": "--gd-dir supplied by Melty",
+      "required": true,
+      "read_only": true,
+      "failure": "Report unavailable or unsupported real cube section/music; stop gameplay.",
+      "verified_contract": "Owned Resources/LevelData.plist format and save decoder fixtures"
+    },
+    {
+      "id": "progress",
+      "reader": "deltadash.progress.ProgressStore",
+      "source": "DeltaDash own save-dir only",
+      "required": true,
+      "read_only": false,
+      "failure": "Keep session playable, show persistence warning.",
+      "verified_contract": "Atomic schema checked progression tests"
+    }
+  ]
+}

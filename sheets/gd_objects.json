@@ -1,0 +1,727 @@
+{
+  "id": "gd_objects",
+  "class": "GDObjectSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "object_id": {
+      "type": "int",
+      "min": 1
+    },
+    "kind": {
+      "type": "str",
+      "choices": [
+        "block",
+        "spike",
+        "decoration",
+        "cube_portal",
+        "boundary"
+      ]
+    },
+    "collision": {
+      "type": "str",
+      "choices": [
+        "box",
+        "triangle",
+        "none"
+      ]
+    },
+    "supported": {
+      "type": "bool"
+    },
+    "note": {
+      "type": "str"
+    }
+  },
+  "rows": [
+    {
+      "id": "block_1",
+      "object_id": 1,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_2",
+      "object_id": 2,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_3",
+      "object_id": 3,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_4",
+      "object_id": 4,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_5",
+      "object_id": 5,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_6",
+      "object_id": 6,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "block_7",
+      "object_id": 7,
+      "kind": "block",
+      "collision": "box",
+      "supported": true,
+      "note": "30-unit base square family; flowvix/gd-info-explorer objects.csv IDs 1–7."
+    },
+    {
+      "id": "spike_8",
+      "object_id": 8,
+      "kind": "spike",
+      "collision": "triangle",
+      "supported": true,
+      "note": "Black Gradient Spike; gd-info-explorer ID 8. Static quarter-turn orientations."
+    },
+    {
+      "id": "decoration_15",
+      "object_id": 15,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_16",
+      "object_id": 16,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_17",
+      "object_id": 17,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_18",
+      "object_id": 18,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_19",
+      "object_id": 19,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_20",
+      "object_id": 20,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_21",
+      "object_id": 21,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_22",
+      "object_id": 22,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_23",
+      "object_id": 23,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_24",
+      "object_id": 24,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_25",
+      "object_id": 25,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_26",
+      "object_id": 26,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_27",
+      "object_id": 27,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_28",
+      "object_id": 28,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_32",
+      "object_id": 32,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_33",
+      "object_id": 33,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_41",
+      "object_id": 41,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_48",
+      "object_id": 48,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_49",
+      "object_id": 49,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_50",
+      "object_id": 50,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_51",
+      "object_id": 51,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_52",
+      "object_id": 52,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_53",
+      "object_id": 53,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_54",
+      "object_id": 54,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_55",
+      "object_id": 55,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_56",
+      "object_id": 56,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_57",
+      "object_id": 57,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_58",
+      "object_id": 58,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Known visual rod, decorative spike, enter effect, ghost trail, chain or pulse shape; gd-info-explorer objects.csv. Restyled/omitted by the pixel skin; no gameplay effect."
+    },
+    {
+      "id": "decoration_29",
+      "object_id": 29,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_30",
+      "object_id": 30,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_104",
+      "object_id": 104,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_105",
+      "object_id": 105,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_221",
+      "object_id": 221,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_717",
+      "object_id": 717,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_718",
+      "object_id": 718,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_743",
+      "object_id": 743,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_744",
+      "object_id": 744,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_899",
+      "object_id": 899,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "decoration_900",
+      "object_id": 900,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": true,
+      "note": "Color-only trigger; nekitdev/gd.py TriggerType. Pixel skin supplies its own palette."
+    },
+    {
+      "id": "cube_portal_12",
+      "object_id": 12,
+      "kind": "cube_portal",
+      "collision": "none",
+      "supported": true,
+      "note": "Cube portal; nekitdev/gd.py PortalType. Inert while already normal cube."
+    },
+    {
+      "id": "boundary_13",
+      "object_id": 13,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_47",
+      "object_id": 47,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_111",
+      "object_id": 111,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_660",
+      "object_id": 660,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_745",
+      "object_id": 745,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_1331",
+      "object_id": 1331,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "boundary_1933",
+      "object_id": 1933,
+      "kind": "boundary",
+      "collision": "none",
+      "supported": false,
+      "note": "Non-cube mode portal; gd-info-explorer object IDs. Official opening ends here before this unsupported mode."
+    },
+    {
+      "id": "decoration_9",
+      "object_id": 9,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_10",
+      "object_id": 10,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_11",
+      "object_id": 11,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_31",
+      "object_id": 31,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_34",
+      "object_id": 34,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_35",
+      "object_id": 35,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_36",
+      "object_id": 36,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_39",
+      "object_id": 39,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_40",
+      "object_id": 40,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_45",
+      "object_id": 45,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_46",
+      "object_id": 46,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_99",
+      "object_id": 99,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_101",
+      "object_id": 101,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_142",
+      "object_id": 142,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_200",
+      "object_id": 200,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_201",
+      "object_id": 201,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_202",
+      "object_id": 202,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_203",
+      "object_id": 203,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_286",
+      "object_id": 286,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_287",
+      "object_id": 287,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_747",
+      "object_id": 747,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_749",
+      "object_id": 749,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_901",
+      "object_id": 901,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1007",
+      "object_id": 1007,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1049",
+      "object_id": 1049,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1268",
+      "object_id": 1268,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1329",
+      "object_id": 1329,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1334",
+      "object_id": 1334,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1346",
+      "object_id": 1346,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1347",
+      "object_id": 1347,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    },
+    {
+      "id": "decoration_1814",
+      "object_id": 1814,
+      "kind": "decoration",
+      "collision": "none",
+      "supported": false,
+      "note": "Recognized but unsupported hazard shape, player state, gameplay trigger, speed change, collectible or end marker. Rejected inside the trial; never silently ignored."
+    }
+  ]
+}

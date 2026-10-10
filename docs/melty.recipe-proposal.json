@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "mode": "standalone",
+  "games": [
+    {"slug": "deltarune", "role": "primary"},
+    {"slug": "custom-geometry-dash", "role": "companion"}
+  ],
+  "components": [
+    {"id": "main", "fileName": "DeltaDash-v0.1.0-dev-windows.zip", "label": "DeltaDash Arcade prototype", "kind": "main", "required": true}
+  ],
+  "requirements": [],
+  "mappings": [
+    {"component": "main", "from": "", "to": "{managed}"}
+  ],
+  "launch": {
+    "kind": "exe",
+    "path": "{managed}/DeltaDash/runtime/pythonw.exe",
+    "cwd": "{managed}/DeltaDash",
+    "args": ["-I", "{managed}/DeltaDash/launch.py", "--game-dir", "{game}", "--gd-dir", "{game:custom-geometry-dash}"]
+  },
+  "runtimeData": ["{localappdata}/DeltaDashArcade"],
+  "notes": {
+    "beforeInstall": "Development prototype requiring installed Deltarune Chapter 2 and Geometry Dash. Real game-version and Windows launch checks remain pending.",
+    "firstLaunch": "Automatically reads Kris sprites and the real Stereo Madness cube opening/music from your installed games. Clear the labeled section to unlock the Quartermaster. This runs a native side room separate from the original Deltarune save."
+  }
+}

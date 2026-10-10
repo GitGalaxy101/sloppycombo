@@ -1,0 +1,45 @@
+{
+  "id": "dialogue",
+  "class": "DialogueLine",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "speaker": {
+      "type": "str"
+    },
+    "text": {
+      "type": "str"
+    },
+    "scene": {
+      "type": "str",
+      "ref": "scenes"
+    }
+  },
+  "rows": [
+    {
+      "id": "cabinet_intro",
+      "speaker": "CABINET",
+      "text": "ONE COIN. ONE COURSE. ONE MORE TRY.",
+      "scene": "room"
+    },
+    {
+      "id": "unlock",
+      "speaker": "QUARTERMASTER",
+      "text": "YOU CLEARED MY SCREEN. NOW CLEAR YOUR DEBT.",
+      "scene": "unlock"
+    },
+    {
+      "id": "act",
+      "speaker": "KRIS",
+      "text": "You return the coin. The machine remembers generosity.",
+      "scene": "boss"
+    },
+    {
+      "id": "spare",
+      "speaker": "QUARTERMASTER",
+      "text": "NO DEBT REMAINS. KEEP THE CHANGE.",
+      "scene": "victory"
+    }
+  ]
+}

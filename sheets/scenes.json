@@ -1,0 +1,88 @@
+{
+  "id": "scenes",
+  "class": "SceneSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "title": {
+      "type": "str"
+    },
+    "description": {
+      "type": "str"
+    },
+    "next_scene": {
+      "type": "str",
+      "ref": "scenes"
+    },
+    "input": {
+      "type": "str",
+      "choices": [
+        "confirm",
+        "move",
+        "jump",
+        "retry",
+        "menu",
+        "dodge"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "id": "title",
+      "title": "DELTADASH",
+      "description": "CYBER CITY ARCADE / A PLAYER-COPY MASHUP",
+      "next_scene": "room",
+      "input": "confirm"
+    },
+    {
+      "id": "room",
+      "title": "CYBER CITY / SIDE ROOM",
+      "description": "A lonely cabinet hums. Maybe one more game?",
+      "next_scene": "trial",
+      "input": "move"
+    },
+    {
+      "id": "trial",
+      "title": "CUBE TRIAL",
+      "description": "JUMP. CLEAR THE REAL COURSE SECTION.",
+      "next_scene": "unlock",
+      "input": "jump"
+    },
+    {
+      "id": "retry",
+      "title": "TRY AGAIN?",
+      "description": "The cabinet keeps your best. Z / SPACE to retry. X to leave.",
+      "next_scene": "trial",
+      "input": "retry"
+    },
+    {
+      "id": "unlock",
+      "title": "A CHALLENGER WAKES",
+      "description": "THE QUARTERMASTER DEMANDS YOUR CHANGE.",
+      "next_scene": "boss",
+      "input": "confirm"
+    },
+    {
+      "id": "boss",
+      "title": "QUARTERMASTER",
+      "description": "ACT: Return the coin. FIGHT: Shake the cabinet.",
+      "next_scene": "victory",
+      "input": "menu"
+    },
+    {
+      "id": "victory",
+      "title": "THANK YOU FOR PLAYING",
+      "description": "The cabinet returns your coin. Come back whenever.",
+      "next_scene": "room",
+      "input": "confirm"
+    },
+    {
+      "id": "boss_retry",
+      "title": "YOUR COIN IS SAFE",
+      "description": "The cabinet stays unlocked. Z to retry the boss; X to leave.",
+      "next_scene": "boss",
+      "input": "retry"
+    }
+  ]
+}

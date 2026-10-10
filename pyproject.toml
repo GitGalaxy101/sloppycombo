@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deltadash-arcade"
+version = "0.1.0.dev0"
+description = "A native, player-copy-backed Deltarune and Geometry Dash arcade mashup prototype."
+requires-python = ">=3.12,<3.13"
+dependencies = ["pygame-ce==2.5.8"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+deltadash = "deltadash.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

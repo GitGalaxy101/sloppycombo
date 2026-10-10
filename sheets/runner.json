@@ -1,0 +1,68 @@
+{
+  "id": "runner",
+  "class": "RunnerSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "block_units": {
+      "type": "float",
+      "min": 1
+    },
+    "size": {
+      "type": "float",
+      "min": 1
+    },
+    "speed": {
+      "type": "float",
+      "min": 1
+    },
+    "gravity": {
+      "type": "float",
+      "min": 1
+    },
+    "jump_velocity": {
+      "type": "float",
+      "min": -2000,
+      "max": -1
+    },
+    "render_scale": {
+      "type": "float",
+      "min": 0.1,
+      "max": 2
+    },
+    "fall_limit": {
+      "type": "float",
+      "min": -1000,
+      "max": -10
+    },
+    "success_scene": {
+      "type": "str",
+      "ref": "scenes"
+    },
+    "failure_scene": {
+      "type": "str",
+      "ref": "scenes"
+    },
+    "jump_buffer_seconds": {
+      "type": "float",
+      "min": 0.01,
+      "max": 0.5
+    }
+  },
+  "rows": [
+    {
+      "id": "cube_trial",
+      "block_units": 30,
+      "size": 24,
+      "speed": 311.58,
+      "gravity": 2700,
+      "jump_velocity": -620,
+      "render_scale": 0.65,
+      "fall_limit": -200,
+      "success_scene": "unlock",
+      "failure_scene": "retry",
+      "jump_buffer_seconds": 0.1
+    }
+  ]
+}

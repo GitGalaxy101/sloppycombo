@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+artifacts/
+*.pyc
+*.egg-info/
+*.win
+game.unx
+CCLocalLevels.dat
+CCGameManager.dat
+.env
+# Keep Melty's automatic-publishing entry point local until explicitly approved.
+/melty.json

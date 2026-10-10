@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "python_version": "3.12.14",
+  "pygame_version": "2.5.8",
+  "architecture": "windows-x86_64",
+  "artifacts": {
+    "python": {
+      "filename": "cpython-3.12.14-windows.tar.gz",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.12.14%2B20260924-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+      "sha256": "c5bf8edfe858c1df9891be498b5bbc8761d383df5b9790658b088fea4870433a",
+      "size": 22052624,
+      "provenance": "https://raw.githubusercontent.com/astral-sh/uv/0.12.19/crates/uv-python/download-metadata.json"
+    },
+    "pygame": {
+      "filename": "pygame_ce-2.5.8-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/81/13/2bba0ebe563047ae9de68dc05656dc0bfa9394c60970548b06d2f2e106c5/pygame_ce-2.5.8-cp312-cp312-win_amd64.whl",
+      "sha256": "2cfe8afe1e7955780f0bd4f01d65f1b4903f561407052081cfcec31e80957c3c",
+      "size": 9668595,
+      "provenance": "https://pypi.org/pypi/pygame-ce/2.5.8/json"
+    },
+    "pygame_source": {
+      "filename": "pygame_ce-2.5.8.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/26/2d/0f942ec31d558a6a1f2fd0df9965ff0055f165ed5b8d36f6509b1f3768a2/pygame_ce-2.5.8.tar.gz",
+      "sha256": "3c8e69088ead310037972c391306ea58e74d7296b35d1890067749235fd554ba",
+      "size": 5300831,
+      "provenance": "https://pypi.org/pypi/pygame-ce/2.5.8/json"
+    },
+    "sdl_ttf_notices": {
+      "filename": "SDL2_ttf-devel-2.24.0-VC.zip",
+      "url": "https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.24.0/SDL2_ttf-devel-2.24.0-VC.zip",
+      "sha256": "2dea8ea01e04756ead27e196a681034ed71342562a75b512ea279fcdfde83307",
+      "size": 11640089,
+      "provenance": "pygame-ce 2.5.8 buildconfig/download_win_prebuilt.py"
+    },
+    "sdl_mixer_notices": {
+      "filename": "SDL2_mixer-devel-2.8.2-VC.zip",
+      "url": "https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.8.2/SDL2_mixer-devel-2.8.2-VC.zip",
+      "sha256": "13d7def40e7e3400c930c0d45df5b14e70c5ca75817232812f24b6e85577b37b",
+      "size": 3823992,
+      "provenance": "pygame-ce 2.5.8 buildconfig/download_win_prebuilt.py"
+    },
+    "python_notice_bzip2": {
+      "filename": "LICENSE.bzip2.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.bzip2.txt",
+      "sha256": "1f38bbc7caacafd65169276d759c0d88c991b753b643ce35d0e45ea1971dd441",
+      "size": 1743,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_libffi": {
+      "filename": "LICENSE.libffi.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.libffi.txt",
+      "sha256": "deaf3a42effb551a5b140fa9afefed183a27f1341c6d1bf430d106a5e6931fc0",
+      "size": 1132,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_openssl-3": {
+      "filename": "LICENSE.openssl-3.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.openssl-3.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+      "size": 10175,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_sqlite": {
+      "filename": "LICENSE.sqlite.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.sqlite.txt",
+      "sha256": "38bef3d28b24f145ea293bd3b6eb4b20396982abc8303128fb493986ea5bc719",
+      "size": 1481,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_liblzma": {
+      "filename": "LICENSE.liblzma.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.liblzma.txt",
+      "sha256": "9a4062de0a2c388a98cf35a35d348b62fa97c838a71c3c28ee1a2d7d0a565b02",
+      "size": 660,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_zlib": {
+      "filename": "LICENSE.zlib.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.zlib.txt",
+      "sha256": "818922b2620f12801a12bf78e399644a30990e66824abd8ca8ec24d451d6f92c",
+      "size": 995,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_tcl": {
+      "filename": "LICENSE.tcl.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.tcl.txt",
+      "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16",
+      "size": 2255,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    },
+    "python_notice_tix": {
+      "filename": "LICENSE.tix.txt",
+      "url": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/20260924/LICENSE.tix.txt",
+      "sha256": "3ac5cdd0bef6c43ce34c6a7ced452081d9e5a0bf94082b9f9147d23ec9e214f5",
+      "size": 2826,
+      "provenance": "https://github.com/astral-sh/python-build-standalone/tree/20260924"
+    }
+  }
+}

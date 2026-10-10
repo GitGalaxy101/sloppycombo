@@ -1,0 +1,91 @@
+{
+  "id": "settings",
+  "class": "Settings",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "title": {
+      "type": "str"
+    },
+    "width": {
+      "type": "int",
+      "min": 240,
+      "max": 640
+    },
+    "height": {
+      "type": "int",
+      "min": 180,
+      "max": 480
+    },
+    "scale": {
+      "type": "int",
+      "min": 1,
+      "max": 6
+    },
+    "fps": {
+      "type": "int",
+      "min": 30,
+      "max": 240
+    },
+    "tick_hz": {
+      "type": "int",
+      "min": 60,
+      "max": 240
+    },
+    "background": {
+      "type": "color"
+    },
+    "cyan": {
+      "type": "color"
+    },
+    "pink": {
+      "type": "color"
+    },
+    "gold": {
+      "type": "color"
+    },
+    "room_scene": {
+      "type": "str",
+      "ref": "scenes"
+    },
+    "max_frame_seconds": {
+      "type": "float",
+      "min": 0.01,
+      "max": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "arcade",
+      "title": "DeltaDash: Cyber City Arcade",
+      "width": 320,
+      "height": 240,
+      "scale": 3,
+      "fps": 60,
+      "tick_hz": 120,
+      "background": [
+        13,
+        10,
+        31
+      ],
+      "cyan": [
+        81,
+        240,
+        236
+      ],
+      "pink": [
+        239,
+        85,
+        180
+      ],
+      "gold": [
+        255,
+        210,
+        92
+      ],
+      "room_scene": "room",
+      "max_frame_seconds": 0.25
+    }
+  ]
+}

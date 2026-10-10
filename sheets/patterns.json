@@ -1,0 +1,99 @@
+{
+  "id": "patterns",
+  "class": "PatternSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "label": {
+      "type": "str"
+    },
+    "kind": {
+      "type": "str",
+      "choices": [
+        "fan",
+        "lanes",
+        "ring"
+      ]
+    },
+    "interval": {
+      "type": "float",
+      "min": 0.1
+    },
+    "speed": {
+      "type": "float",
+      "min": 1
+    },
+    "count": {
+      "type": "int",
+      "min": 2,
+      "max": 16
+    },
+    "radius": {
+      "type": "float",
+      "min": 1,
+      "max": 20
+    },
+    "damage": {
+      "type": "int",
+      "min": 1
+    },
+    "color": {
+      "type": "color"
+    },
+    "next_pattern": {
+      "type": "str",
+      "ref": "patterns"
+    }
+  },
+  "rows": [
+    {
+      "id": "coin_fan",
+      "label": "INSERT CHANGE",
+      "kind": "fan",
+      "interval": 0.85,
+      "speed": 42,
+      "count": 7,
+      "radius": 3,
+      "damage": 4,
+      "color": [
+        255,
+        210,
+        92
+      ],
+      "next_pattern": "receipt_lanes"
+    },
+    {
+      "id": "receipt_lanes",
+      "label": "KEEP YOUR RECEIPT",
+      "kind": "lanes",
+      "interval": 1.1,
+      "speed": 48,
+      "count": 5,
+      "radius": 4,
+      "damage": 4,
+      "color": [
+        241,
+        229,
+        207
+      ],
+      "next_pattern": "glitch_ring"
+    },
+    {
+      "id": "glitch_ring",
+      "label": "NO REFUNDS",
+      "kind": "ring",
+      "interval": 1.4,
+      "speed": 36,
+      "count": 10,
+      "radius": 3,
+      "damage": 4,
+      "color": [
+        239,
+        85,
+        180
+      ],
+      "next_pattern": "coin_fan"
+    }
+  ]
+}

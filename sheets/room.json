@@ -1,0 +1,61 @@
+{
+  "id": "room",
+  "class": "RoomSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "speed": {
+      "type": "float",
+      "min": 1
+    },
+    "start_x": {
+      "type": "int"
+    },
+    "start_y": {
+      "type": "int"
+    },
+    "left": {
+      "type": "int"
+    },
+    "right": {
+      "type": "int"
+    },
+    "top": {
+      "type": "int"
+    },
+    "bottom": {
+      "type": "int"
+    },
+    "cabinet_x": {
+      "type": "int"
+    },
+    "cabinet_y": {
+      "type": "int"
+    },
+    "interact_radius": {
+      "type": "float",
+      "min": 1
+    },
+    "typing_speed": {
+      "type": "float",
+      "min": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "cyber_city",
+      "speed": 72,
+      "start_x": 100,
+      "start_y": 155,
+      "left": 28,
+      "right": 288,
+      "top": 140,
+      "bottom": 192,
+      "cabinet_x": 221,
+      "cabinet_y": 148,
+      "interact_radius": 45,
+      "typing_speed": 38
+    }
+  ]
+}

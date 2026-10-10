@@ -1,0 +1,100 @@
+{
+  "id": "boss",
+  "class": "BossSpec",
+  "columns": {
+    "id": {
+      "type": "str"
+    },
+    "name": {
+      "type": "str"
+    },
+    "hp": {
+      "type": "int",
+      "min": 1
+    },
+    "soul_hp": {
+      "type": "int",
+      "min": 1
+    },
+    "fight_damage": {
+      "type": "int",
+      "min": 1
+    },
+    "act_mercy": {
+      "type": "int",
+      "min": 1,
+      "max": 100
+    },
+    "damage": {
+      "type": "int",
+      "min": 1
+    },
+    "invulnerability": {
+      "type": "float",
+      "min": 0.1
+    },
+    "soul_speed": {
+      "type": "float",
+      "min": 1
+    },
+    "soul_radius": {
+      "type": "float",
+      "min": 1
+    },
+    "box_x": {
+      "type": "int",
+      "min": 0
+    },
+    "box_y": {
+      "type": "int",
+      "min": 0
+    },
+    "box_width": {
+      "type": "int",
+      "min": 30
+    },
+    "box_height": {
+      "type": "int",
+      "min": 30
+    },
+    "turn_seconds": {
+      "type": "float",
+      "min": 1
+    },
+    "pattern": {
+      "type": "str",
+      "ref": "patterns"
+    },
+    "win_scene": {
+      "type": "str",
+      "ref": "scenes"
+    },
+    "soul_focus_factor": {
+      "type": "float",
+      "min": 0.1,
+      "max": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "quartermaster",
+      "name": "QUARTERMASTER",
+      "hp": 90,
+      "soul_hp": 20,
+      "fight_damage": 15,
+      "act_mercy": 34,
+      "damage": 4,
+      "invulnerability": 1.0,
+      "soul_speed": 86,
+      "soul_radius": 3,
+      "box_x": 78,
+      "box_y": 110,
+      "box_width": 164,
+      "box_height": 82,
+      "turn_seconds": 6.0,
+      "pattern": "coin_fan",
+      "win_scene": "victory",
+      "soul_focus_factor": 0.5
+    }
+  ]
+}
